@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 
-class Example(ttk.Frame):
+class DCPCreator(ttk.Frame):
     def __init__(self, root):
         super().__init__(root)
         root.title('Frame')
@@ -17,7 +17,7 @@ class Example(ttk.Frame):
 
 def main():
     root = tk.Tk()
-    app = Example(root)
+    app = DCPCreator(root)
     app.mainloop()
 
 
